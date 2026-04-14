@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -51,7 +52,7 @@ function CardProduto({ nome, preco, adicionado }) {
 
       {/* muda a cor conforme a prop */}
       <BotaoCarrinho adicionado={adicionado}>
-        Adicionar ao carrinho
+      {adicionado ? "Produto adicionado" : "Adicionar ao carrinho"}
       </BotaoCarrinho>
     </Card>
   );
