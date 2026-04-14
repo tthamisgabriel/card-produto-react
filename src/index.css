@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #eef2f7, #dfe7f1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
